@@ -195,6 +195,16 @@ a:active {
     text-align: justify;
 }
 
+.article__p:first-of-type::first-letter {
+    float: left;
+    font-size: 3.325rem;
+    line-height: 1;
+    margin-right: 0.1em;
+    margin-top: -0.1em;
+    color: var(--HIGHLIGHT-COLOR);
+    font-weight: bold;
+}
+
 /* || FOOTER */
 .footer {
     padding: 0 var(--PADDING-SIDE);
