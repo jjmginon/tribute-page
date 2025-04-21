@@ -115,6 +115,10 @@ li {
     list-style-type: none;
 }
 
+a {
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
 a:any-link {
     color: var(--LINK-COLOR);
 }
